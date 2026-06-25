@@ -57,22 +57,34 @@ nav button{
     font-size: 30px;
     
 }
-.super :first-child {
+.super >:first-child {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 56px;
+    line-height: 70px;
+    font-style: normal;
+    color:rgb(255,255,255);
     /* font: bolder; */
 }
-.super1{
+.super >:nth-child(2){
     font-weight: 700;
-    font-size: 60px;
+    font-size: 56px;
+    line-height: 70px;
+    font-style: normal;
+    color:rgb(255,255,255);
 }
-.super2{
-    font-weight: 700;
+.super :nth-child(3){
+    font-weight: 500;
     font-size: 20px;
+    font-style: normal;
+    color:rgb(255,255,255);
+    line-height: normal;
 }
-.super3{
+.super :nth-child(4){
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 50px;
+    color:rgb(255,255,255);
 }
 nav button{
     padding: 10px;
@@ -86,6 +98,16 @@ nav button{
     color: white;
     font-weight: 700;
 }
-.main1 :hover{
-    color: black;
+.in1{
+    width: 370px;
+    height: 52px;
 }
+.in2{
+    width: 195px;
+    height: 55px;
+    font-size: 24px;
+}
+/* .main .main1 :hover{
+    color: black;
+    cursor: pointer;
+} */
