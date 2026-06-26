@@ -14,7 +14,8 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     /* background-size: 80vw; */
-    background-size: max(1200px ,100vw);
+    /* background-size: max(1200px ,100vw); */
+    background-size: cover;
     height: 85vh;
     position: relative;
     /* margin-top: 0px; */
@@ -26,17 +27,20 @@ body{
     background-color: rgba(0, 0, 0,0.6);
     position: absolute;
     top: 0;
-
+    /* background-color: blue; */
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-     max-width: 80vw;
+    max-width: 80vw;
     margin: auto;
     /* position: relative; */
     /* top: 3px; */
     height: 80px;
+    /* background-color: aqua; */
+    /* padding: 10px 50px; */
+    padding: 5px;
 }
 nav img{
     width: 152px;
@@ -54,19 +58,20 @@ nav button{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
     /* z-index: 15; */
     /* font-size: 35px; */
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-     font-style: normal;
+    font-style: normal;
     font-weight: 700;
     color: rbga(250,250,250);
-    /* height: calc(100% + 80px); */
+    height: calc(100% + 0px);
     font-size: 30px;
     padding: 30px;
     gap: 30px;
-    
+    flex-wrap: wrap;
+    padding: 10px;
 }
 .super >:first-child {
     font-weight: 700;
@@ -114,6 +119,7 @@ nav button{
     color: white;
     font-weight: 700;
 }
+
 .in1{
     width: 370px;
     height: 54px;
@@ -134,7 +140,7 @@ nav button{
     height: 57px;
     font-size: 24px;
     position: relative;
-    top: 4px;
+    top: 2px;
     font-weight: 700;
     background-color: red;
     color: white;
@@ -142,10 +148,27 @@ nav button{
     border: none;
     
 }
-/* .main .main1 :hover{
-    color: black;
+.superflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* display: block; */
+}
+
+.super div  input :hover{
+    background-color: rgb(73, 73, 73);
     cursor: pointer;
-} */
+}
+.super div :hover{
+    background-color: rgb(85, 47, 47);
+    cursor: pointer;
+}
+.main nav :hover{
+    background-color: rgb(131, 44, 44);
+    cursor: pointer;
+}
 .in3{
     position: relative;
     top: 4px;
@@ -153,13 +176,50 @@ nav button{
     /* background-color: white; */
 }
 .sep{
-    width: 100vw;
-    height: 3px; 
+    width: 100%;
+    height: 2px; 
     background-color: red;
     position: relative;
-    top: 50px;
+    top: 78px;
+    padding: 1px;
 }
-
+.tren{
+    position: relative;
+    left: 100px;
+    /* border: 2px solid green; */
+    color: white;
+    font-size: 24px;
+    /* font-weight: 500; */
+    top: 30px;
+    font: bolder;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    gap: 50px;
+    border-radius: 30px;
+}
+.image1{
+    border-radius: 10px;
+}
+.image2{
+    border-radius: 10px;
+}
+.image3{
+    border-radius: 10px;
+}
+.image4{
+    border-radius: 10px;
+}
+.image11{
+    font-size: 100px;
+    width: 100px;
+    color: white;
+    border: 2px solid white;
+}
 /* .curve{
     width: 100vw;
     line-height: 0;
