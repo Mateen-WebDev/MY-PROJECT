@@ -2,22 +2,31 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: black;
+    border-radius: 10px;
+    /* overflow: auto; */
+    /* overflow-wrap: normal; */
+    overflow-x: hidden;
+}
 .main{
     background-image: url("new netflix.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 80vw;
+    /* background-size: 80vw; */
     background-size: max(1200px ,100vw);
-    height: 80vh;
+    height: 85vh;
     position: relative;
+    /* margin-top: 0px; */
 }
-.box{
-    height: 80vh;
+.main .box{
+    height: 85vh;
     width: 100%;
     /* opacity: 0.6; */
     background-color: rgba(0, 0, 0,0.6);
     position: absolute;
     top: 0;
+
 }
 nav{
     display: flex;
@@ -53,24 +62,29 @@ nav button{
      font-style: normal;
     font-weight: 700;
     color: rbga(250,250,250);
-    line-height: 70px;
+    /* height: calc(100% + 80px); */
     font-size: 30px;
+    padding: 30px;
+    gap: 30px;
     
 }
 .super >:first-child {
     font-weight: 700;
     font-size: 56px;
-    line-height: 70px;
+    line-height: 50px;
     font-style: normal;
     color:rgb(255,255,255);
     /* font: bolder; */
+    
+    text-align: center;
 }
 .super >:nth-child(2){
     font-weight: 700;
     font-size: 56px;
-    line-height: 70px;
+    line-height: 45px;
     font-style: normal;
     color:rgb(255,255,255);
+    text-align: center;
 }
 .super :nth-child(3){
     font-weight: 500;
@@ -78,6 +92,7 @@ nav button{
     font-style: normal;
     color:rgb(255,255,255);
     line-height: normal;
+    text-align: center;
 }
 .super :nth-child(4){
     font-weight: 400;
@@ -85,6 +100,7 @@ nav button{
     font-style: normal;
     line-height: 50px;
     color:rgb(255,255,255);
+    text-align: center;
 }
 nav button{
     padding: 10px;
@@ -100,14 +116,61 @@ nav button{
 }
 .in1{
     width: 370px;
-    height: 52px;
+    height: 54px;
+    font-size: medium;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    background-image: none;
+    background-color: rgba(22, 18, 18, 0.5);
+    text-align: left;
+    font-family: 'Segoe UI';
+    color: rgb(228, 228, 215);
+    font-weight: 600;
 }
 .in2{
     width: 195px;
-    height: 55px;
+    height: 57px;
     font-size: 24px;
+    position: relative;
+    top: 4px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
 }
 /* .main .main1 :hover{
     color: black;
     cursor: pointer;
+} */
+.in3{
+    position: relative;
+    top: 4px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* background-color: white; */
+}
+.sep{
+    width: 100vw;
+    height: 3px; 
+    background-color: red;
+    position: relative;
+    top: 50px;
+}
+
+/* .curve{
+    width: 100vw;
+    line-height: 0;
+    background: transparent;
+    box-shadow: 20px 10px 5px 10px chocolate;
+}
+
+.curve svg{
+    width: 100vw;
+    height: 60px;
+    display: block;
+    background: transparent; 
+    box-shadow: 20px 10px 5px 10px chocolate;
 } */
