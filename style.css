@@ -180,18 +180,20 @@ nav button{
     height: 2px; 
     background-color: red;
     position: relative;
-    top: 78px;
+    top: 70px;
     padding: 1px;
+
 }
 .tren{
     position: relative;
-    left: 100px;
+    left: 200px;
     /* border: 2px solid green; */
     color: white;
-    font-size: 24px;
+    font-size: 30px;
     /* font-weight: 500; */
     top: 30px;
-    font: bolder;
+    /* font: bolder; */
+    font-weight: 600;
 }
 .images{
     display: flex;
@@ -199,7 +201,7 @@ nav button{
     justify-content: center;
     position: relative;
     top: 70px;
-    gap: 50px;
+    gap: 10px;
     border-radius: 30px;
 }
 .image1{
@@ -216,9 +218,97 @@ nav button{
 }
 .image11{
     font-size: 100px;
-    width: 100px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    /* width: 100px; */
+    color: #000;                    /* Black fill */
+    -webkit-text-stroke: 2px #fff;  /* White outline */
+    /* border: 1px solid white; */
+    font-weight: 800;
+    /* background-color: black; */
+    position: relative;
+    z-index: 12;
+    left: 43px;
+    top: 60px;
+}
+.image22{
+    font-size: 100px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    /* width: 100px; */
+    color: #000;                    /* Black fill */
+    -webkit-text-stroke: 2px #fff;  /* White outline */
+    /* border: 1px solid white; */
+    font-weight: 800;
+    /* background-color: black; */
+    position: relative;
+    z-index: 12;
+    left: 43px;
+    top: 60px;
+}
+.image33{
+    font-size: 100px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    /* width: 100px; */
+    color: #000;                    /* Black fill */
+    -webkit-text-stroke: 2px #fff;  /* White outline */
+    /* border: 1px solid white; */
+    font-weight: 800;
+    /* background-color: black; */
+    position: relative;
+    z-index: 12;
+    left: 42px;
+    top: 60px;
+}
+.image44{
+    font-size: 100px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    /* width: 100px; */
+    color: #000;                    /* Black fill */
+    -webkit-text-stroke: 2px #fff;  /* White outline */
+    /* border: 1px solid white; */
+    font-weight: 800;
+    /* background-color: black; */
+    position: relative;
+    z-index: 12;
+    left: 43px;
+    top: 60px;
+}
+.image{
+    font-size: 100px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    /* width: 100px; */
+    color: #000;                    /* Black fill */
+    -webkit-text-stroke: 2px #fff;  /* White outline */
+    /* border: 1px solid white; */
+    font-weight: 800;
+    /* background-color: black; */
+    position: relative;
+    z-index: 12;
+    left: 83px;
+    top: 60px;
+}
+.image11{
+    font-size: 100px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    /* width: 100px; */
+    color: #000;                    /* Black fill */
+    -webkit-text-stroke: 2px #fff;  /* White outline */
+    /* border: 1px solid white; */
+    font-weight: 800;
+    /* background-color: black; */
+    position: relative;
+    z-index: 12;
+    left: 83px;
+    top: 60px;
+}
+.more{
     color: white;
-    border: 2px solid white;
+    /* border: 2px solid wheat; */
+    margin-top: 460px;
+    margin-left:180px ;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    
 }
 /* .curve{
     width: 100vw;
