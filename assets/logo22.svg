@@ -1,0 +1,35 @@
+<svg width="90" height="90" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d95"/>
+      <stop offset="50%" stop-color="#8b3dff"/>
+      <stop offset="100%" stop-color="#3b0b6d"/>
+    </linearGradient>
+
+    <linearGradient id="stand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2d95"/>
+      <stop offset="100%" stop-color="#8b3dff"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- TV Screen -->
+  <rect x="15" y="18" width="60" height="38" rx="3"
+        fill="url(#screen)"
+        stroke="#ff4fd8"
+        stroke-width="1.5"
+        filter="url(#glow)"/>
+
+  <!-- Stand -->
+  <rect x="43" y="57" width="4" height="10" fill="url(#stand)"/>
+
+  <!-- Base -->
+  <ellipse cx="45" cy="70" rx="18" ry="2.5" fill="url(#stand)"/>
+</svg>
