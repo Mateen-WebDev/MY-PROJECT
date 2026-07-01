@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    /* outline: 1px solid red; */
+    /* box-sizing: border-box; */
 }
 body{
     background-color: black;
@@ -8,6 +10,7 @@ body{
     /* overflow: auto; */
     /* overflow-wrap: normal; */
     overflow-x: hidden;
+    width: 100%;
 }
 .main{
     background-image: url("new netflix.jpg");
@@ -186,7 +189,7 @@ nav button{
 }
 .tren{
     position: relative;
-    left: 200px;
+    left: 10%;
     /* border: 2px solid green; */
     color: white;
     font-size: 30px;
@@ -613,7 +616,7 @@ nav button{
     /* display: block; */
 }
 .in11{
-    width: 550px;
+    width: 40vw;
     height: 54px;
     font-size: medium;
     position: relative;
@@ -633,19 +636,48 @@ div pre{
 .contact a{
     color: white;
     display: flex;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 14px;
     text-decoration: underline;
     margin-left: 100px;
     margin-top: 40px;
     
 }
 .links{
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr );
     margin-left: 100px;
     margin-right: 100px;
-    column-gap: 5px;
-    row-gap: 6px;
+    column-gap: 15px;
+    row-gap: 1px;
+}
+div select {
+    width: 9%;
+    margin-left: 80px;
+    margin-top: 5% ;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(82, 79, 79);
+    font-weight: 400;
+    font-size: 14px;
+    /* outline: 2px solid white; */
+    /* outline-offset: 2px; */
+}
+.last{
+    color: white;
+    margin-top: 50px;
+    margin-left: 7%;
+    font-size: 15px;
+    row-gap: 10px;
+}
+.last :first-child{
+    color: #cccbcb;
+}
+.abc{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    color: #777575;
 }
